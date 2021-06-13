@@ -1,0 +1,36 @@
+.welcome {
+  display: grid;
+  place-items: center;
+  margin: 20px 150px;
+}
+.welcome__top {
+  display: grid;
+  place-items: center;
+}
+.welcome__top > img {
+  margin-bottom: 10px;
+  height: 100px;
+  object-fit: contain;
+}
+.welcome__top > p {
+  font-size: 30px;
+  color: #375b5c;
+  margin-top: 15px;
+}
+.welcome__top > h4 {
+  width: 50vw;
+  text-align: center;
+  margin-top: 20px;
+  color: #375b5c;
+  font-size: 16px;
+}
+.welcome__bottom {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+.welcome__bottom > img {
+  height: 40vh;
+  margin: 20px;
+}

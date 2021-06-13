@@ -1,0 +1,34 @@
+.singleBlog {
+  height: 50vh;
+  width: 26%;
+  margin: 30px;
+}
+.singleBlog > img {
+  height: 50%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.singleBlog__info {
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+}
+.singleBlog__info > h3 {
+  color: #00dbd0;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.singleBlog__info > p {
+  text-align: center;
+  font-size: 15px;
+  color: #375b5c;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.singleBlog__info > h5 {
+  color: #375b5c;
+  border-bottom: 1px solid #00dbd0;
+
+  border-width: 2px;
+}

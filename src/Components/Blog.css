@@ -1,0 +1,29 @@
+.blog {
+  display: flex;
+  flex-direction: column;
+  margin: 70px 150px;
+  height: 80vh;
+  margin-top: -50px;
+}
+.blog__top {
+  display: grid;
+  place-items: center;
+}
+.blog__top > img {
+  margin-bottom: 10px;
+}
+.blog__top > p {
+  font-size: 30px;
+  color: #375b5c;
+  margin-bottom: 10px;
+}
+.blog__top > h4 {
+  color: #375b5c;
+  text-align: center;
+  width: 70%;
+}
+.blog__bottom {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+}

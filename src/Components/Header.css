@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0px;
+  height: 10vh;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.header__left > img {
+  height: 60px;
+  object-fit: contain;
+  margin-right: 10px;
+}
+.header__left > h1 {
+  font-style: LibreBaskerville-Bold;
+  color: #374b5c;
+}
+.header__right {
+  display: flex;
+}
+.header__right > h4 {
+  color: #374b5c;
+  margin: 20px;
+}

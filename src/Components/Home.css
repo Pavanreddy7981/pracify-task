@@ -1,0 +1,53 @@
+.home {
+  display: flex;
+  margin: 10px 150px;
+  background-image: linear-gradient(to bottom, #f1fefe, rgba(241, 254, 254, 0));
+}
+.home__left {
+  margin-top: 120px;
+}
+.home__leftHeader {
+  color: #375b5c;
+  font-size: 22px;
+}
+.home__left > h1 {
+  color: #375b5c;
+  margin-bottom: 20px;
+}
+.home__leftPara {
+  font-size: 13px;
+  width: 250px;
+  color: #375b5c;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.home__left > button {
+  background-color: #00dbd0;
+  border: none;
+  margin-top: 20px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+.home__right {
+  display: flex;
+  margin-top: 120px;
+}
+.home__right > img {
+  margin-right: -130px;
+  margin-left: 120px;
+  height: 90vh;
+  z-index: 1;
+}
+.home__rightImage {
+  border: 3px solid #00dbd0;
+  height: 160px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+.home__rightImage > img {
+  height: 160px;
+  object-fit: contain;
+}
